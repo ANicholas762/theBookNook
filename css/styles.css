@@ -1,0 +1,515 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.feb {
+  width: 100%;
+  height: 480px;
+}
+.feb .banner {
+  margin: 0 auto;
+  width: 1200px;
+  height: 463px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(88, 124, 131, 0.8)), to(rgba(88, 124, 121, 0.8))), url(../images/february-favorites-hero.jpg);
+  background-image: linear-gradient(rgba(88, 124, 131, 0.8), rgba(88, 124, 121, 0.8)), url(../images/february-favorites-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.feb .banner .sign {
+  width: 1000px;
+  height: 500px;
+  left: 30px;
+  color: white;
+  font-size: 32px;
+  padding: 150px;
+  text-align: center;
+}
+.feb .banner .sign .quote {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.feb .banner .sign .text {
+  text-align: center;
+  font-size: 26px;
+}
+
+.home-banner .logo img {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  left: -220px;
+}
+.home-banner .cName {
+  position: relative;
+  height: 20px;
+  width: 200px;
+  left: -200px;
+}
+.home-banner .cName h1 {
+  font-family: SegoeUi;
+  font-size: 16px;
+  font-weight: lighter;
+}
+.home-banner nav {
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.home-banner nav a {
+  position: relative;
+  font-family: SegoeUi;
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #000;
+  padding: 30px;
+  right: 60px;
+}
+.home-banner .search {
+  position: relative;
+  width: 604px;
+  height: 44px;
+  background-color: #000;
+  left: -120px;
+}
+.home-banner .search input {
+  width: 604px;
+  height: 44px;
+  background-color: #c1d0d4;
+  border-color: #707070;
+  border-style: none;
+}
+.home-banner .user img {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  left: 494px;
+}
+.home-banner .cart img {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  left: 550px;
+}
+
+.line-break {
+  position: relative;
+  top: 80px;
+}
+.line-break hr {
+  border: 1px solid #000;
+}
+
+.container {
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+img {
+  max-width: 250px;
+  height: 380px;
+  margin-left: 130px;
+}
+
+.images {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  right: -50px;
+}
+
+.textthree {
+  font-size: 16px;
+  margin-bottom: 200px;
+  padding-left: 20px;
+  left: -700px;
+  top: -90px;
+  max-width: 1000px;
+  margin-right: 100px;
+  margin-top: 40px;
+}
+.textthree h1 {
+  font-size: 16px;
+}
+
+.textfour {
+  max-width: 1000px;
+  font-size: 16px;
+  left: 50px;
+  margin-bottom: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media all and (max-width: 1000px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .textthree {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .textfour {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.book {
+  width: 100%;
+  height: 480px;
+}
+.book .banners {
+  margin: 0 auto;
+  width: 1200px;
+  height: 463px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(88, 124, 131, 0.8)), to(rgba(88, 124, 121, 0.8))), url(../images/book-club-hero.jpg);
+  background-image: linear-gradient(rgba(88, 124, 131, 0.8), rgba(88, 124, 121, 0.8)), url(../images/book-club-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.book .banners .about {
+  width: 1000px;
+  height: 500px;
+  left: 30px;
+  color: white;
+  font-size: 32px;
+  padding: 150px;
+}
+.book .banners .about p {
+  padding-left: 300px;
+}
+.book .banners .books {
+  width: 1128px;
+  height: 26px;
+  font-size: 26px;
+  margin-top: 26px;
+}
+
+.best {
+  position: absolute;
+  bottom: 370px;
+  margin-left: -80px;
+  padding: 10px;
+  font-size: 16px;
+  right: 400px;
+}
+
+.bookimage {
+  width: 100%;
+  height: 900px;
+}
+.bookimage .glasses {
+  width: 100%;
+  height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.bookimage .glasses .pic {
+  width: 500px;
+  height: 460px;
+  background-image: url(../images/open-book-blog.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 120px;
+}
+.bookimage .glasses .sent {
+  margin-left: 16px;
+  width: 910px;
+  height: 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 16px;
+}
+.bookimage .glasses .sen {
+  width: 900px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.bookimage .glasses .sentwo {
+  width: 1000px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.bookimage .glasses .senthree {
+  width: 1000px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.bookimage .glasses .senfour {
+  width: 1000px;
+  font-size: 16px;
+}
+
+.reading {
+  width: 100%;
+  height: 480px;
+}
+.reading .poster {
+  margin: 0 auto;
+  width: 1200px;
+  height: 463px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(88, 124, 131, 0.8)), to(rgba(88, 124, 121, 0.8))), url(../images/eread-hero.jpg);
+  background-image: linear-gradient(rgba(88, 124, 131, 0.8), rgba(88, 124, 121, 0.8)), url(../images/eread-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.reading .poster .postertext {
+  margin: 0 auto;
+  width: 1000px;
+  height: 500px;
+  left: 30px;
+  color: white;
+  font-size: 32px;
+  padding: 150px;
+}
+.reading .poster .postertext .postertexts {
+  margin-left: 50px;
+  font-size: 32px;
+}
+.reading .poster .reader {
+  width: 1000px;
+  font-size: 20px;
+  margin-top: 26px;
+  margin-right: 70px;
+}
+
+.tabletimage {
+  width: 100%;
+  height: 900px;
+}
+.tabletimage .mug {
+  width: 100%;
+  height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.tabletimage .mug .picture {
+  width: 500px;
+  height: 460px;
+  background-image: url(../images/ereading-blog.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 120px;
+}
+.tabletimage .mug .send {
+  margin-left: 16px;
+  width: 910px;
+  height: 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 16px;
+}
+.tabletimage .mug .send .sendone {
+  max-width: 900px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.allnovel {
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.allnovel .novel-info {
+  max-width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.allnovel .novel-image {
+  width: 223px;
+  height: 246px;
+  background-color: aliceblue;
+  background-image: url(../images/twilight.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-imaged {
+  width: 223px;
+  height: 246px;
+  background-color: aliceblue;
+  background-image: url(../images/hp-box-set.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-images {
+  width: 223px;
+  height: 246px;
+  background-color: aliceblue;
+  background-image: url(../images/got-box-set.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-imag {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/finding-me.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-imags {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/mlk-biography.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-imagsd {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/elenor-roosevelt-biography.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-pic {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/misery.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-pics {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/frankenstein.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-photo {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/phantoms.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-photo2 {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/winnie.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-photo3 {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/cat.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-photo4 {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/fun-facts-about-space.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-text {
+  margin-left: 14px;
+  max-width: 280px;
+}
+.allnovel .price {
+  margin-top: 10px;
+  margin-left: 14px;
+}
+.allnovel button {
+  margin-left: 14px;
+  color: gray;
+  width: 100px;
+  height: 60px;
+}
+
+h3 {
+  margin-left: 20px;
+}
+
+@media all and (max-width: 1000px) {
+  .allnovel {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}

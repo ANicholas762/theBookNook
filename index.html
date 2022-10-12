@@ -8,47 +8,46 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="home-banner"> 
-        <nav>
-  
-          <div class="logo">
-            <img src="./css/icons/books-stack-of-three.png" alt="">
-          </div>
-  
-          <div class="cName">
-          <h1>The BookNook
-          </h1>
+    <div class="home-banner">
+      <nav>
+        <div class="logo">
+          <img src="./css/icons/books-stack-of-three.png" alt="" />
         </div>
-  
-          <div class="search">
-            <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
-          <input type="text" name="" id=""  placeholder= "Search..." >
-        </div>
-  
-        <div class="user">
-          <img src="./css/icons/user.png" alt="">
-        </div>
-  
-        <div class="cart">
-          <img src="./css/icons/shopping-cart.png" alt="">
-        </div>
-  
-        <a href="#home">home</a>
-        <a href="#">about</a>
-        <a href="#">books</a>
-        <a href="#">blog</a>
-        <a href="#">account</a>
-        <a href="#">cart</a>
-      </nav>
-      </div>
-  
-       <div class="line-break">
-        <hr>
-       </div>
 
-       
-       
+        <div class="cName">
+          <h1>The BookNook</h1>
+        </div>
+
+        <div class="search">
+          <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+          <input type="text" name="" id="" placeholder="Search..." />
+        </div>
+
+        <div class="user">
+          <img src="./css/icons/user.png" alt="" />
+        </div>
+
+        <div class="cart">
+          <img src="./css/icons/shopping-cart.png" alt="" />
+        </div>
+
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#books">books</a>
+        <a href="#blog">blog</a>
+        <a href="#account">account</a>
+        <a href="#cart">cart</a>
+      </nav>
+    </div>
+
+    <div class="line-break">
+      <hr />
+    </div>
+
+    <div id="app"></div>
+
     <script src="lib/jquery-3.6.1.min.js"></script>
-    <script src="app/app.js"></script>
+    <script type="module" src="app/model.js"></script>
+    <script type="module" src="app/app.js"></script>
   </body>
 </html>
