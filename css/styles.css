@@ -13,6 +13,23 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 16px;
 }
 
+#app {
+  margin: 180px;
+  margin-left: 50px;
+}
+
+@font-face {
+  font-family: SegoeUi;
+  src: url(../css/fonts-2/segoeui.ttf);
+}
+@font-face {
+  font-family: SegoeUiBold;
+  src: url(../css/fonts-2/segoeuib.ttf);
+}
+@font-face {
+  font-family: SegoeUiBold2;
+  src: url(../css/fonts-2/seguibl.ttf);
+}
 .feb {
   width: 100%;
   height: 480px;
@@ -36,12 +53,17 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 150px;
   text-align: center;
 }
+.feb .banner .sign p {
+  font-family: SegoeUi;
+}
 .feb .banner .sign .quote {
+  font-family: SegoeUi;
   margin-top: 20px;
   font-size: 16px;
 }
 .feb .banner .sign .text {
   text-align: center;
+  font-family: SegoeUi;
   font-size: 26px;
 }
 
@@ -156,9 +178,11 @@ img {
   max-width: 1000px;
   margin-right: 100px;
   margin-top: 40px;
+  font-family: SegoeUi;
 }
 .textthree h1 {
   font-size: 16px;
+  font-family: SegoeUi;
 }
 
 .textfour {
@@ -170,6 +194,7 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-family: SegoeUi;
 }
 
 @media all and (max-width: 1000px) {
@@ -217,6 +242,7 @@ img {
   padding: 150px;
 }
 .book .banners .about p {
+  font-family: SegoeUi;
   padding-left: 300px;
 }
 .book .banners .books {
@@ -269,20 +295,24 @@ img {
   width: 900px;
   font-size: 16px;
   margin-bottom: 25px;
+  font-family: SegoeUi;
 }
 .bookimage .glasses .sentwo {
   width: 1000px;
   font-size: 16px;
   margin-bottom: 25px;
+  font-family: SegoeUi;
 }
 .bookimage .glasses .senthree {
   width: 1000px;
   font-size: 16px;
   margin-bottom: 25px;
+  font-family: SegoeUi;
 }
 .bookimage .glasses .senfour {
   width: 1000px;
   font-size: 16px;
+  font-family: SegoeUi;
 }
 
 .reading {
@@ -307,16 +337,19 @@ img {
   color: white;
   font-size: 32px;
   padding: 150px;
+  font-family: SegoeUi;
 }
 .reading .poster .postertext .postertexts {
   margin-left: 50px;
   font-size: 32px;
+  font-family: SegoeUi;
 }
 .reading .poster .reader {
   width: 1000px;
   font-size: 20px;
   margin-top: 26px;
   margin-right: 70px;
+  font-family: SegoeUi;
 }
 
 .tabletimage {
@@ -348,20 +381,21 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   font-size: 16px;
+  font-family: SegoeUi;
 }
 .tabletimage .mug .send .sendone {
   max-width: 900px;
   font-size: 16px;
   margin-bottom: 25px;
+  font-family: SegoeUi;
 }
 
 .allnovel {
   width: 100%;
-  height: 500px;
+  min-height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -487,21 +521,29 @@ img {
   background-repeat: no-repeat;
 }
 .allnovel .novel-text {
+  margin-top: 40px;
+  margin-bottom: 30px;
   margin-left: 14px;
-  max-width: 280px;
+  max-width: 90%;
+  font-size: 12px;
+  font-family: SegoeUi;
 }
 .allnovel .price {
   margin-top: 10px;
+  margin-bottom: 60px;
   margin-left: 14px;
+  font-family: SegoeUi;
 }
 .allnovel button {
   margin-left: 14px;
   color: gray;
   width: 100px;
   height: 60px;
+  font-family: SegoeUi;
 }
 
 h3 {
+  font-family: SegoeUi;
   margin-left: 20px;
 }
 
@@ -511,5 +553,6 @@ h3 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-top: 100px;
   }
 }

@@ -7,11 +7,23 @@ function route() {
 
   if (pageID == "") {
     MODEL.changePage("home");
+  } else if (pageID == "books") {
+    MODEL.changePage("books", addtocartListener);
   } else {
     MODEL.changePage(pageID);
   }
 }
 
+function addtocartListener() {
+  console.log("test");
+  $("#app")
+    .unbind()
+    .on("click", ".text-novel button", function (e) {
+      let bookID = e.currentTarget.id;
+      console.log(`Got bookID: ${bookID}`);
+      MODEL.addToCart(bookID);
+    });
+}
 function initListeners() {}
 
 function initApp() {
