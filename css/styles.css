@@ -71,13 +71,12 @@ h1, h2, h3, h4, h5, h6, p {
   position: relative;
   height: 60px;
   width: 60px;
-  left: -220px;
 }
 .home-banner .cName {
   position: relative;
   height: 20px;
   width: 200px;
-  left: -200px;
+  left: 10px;
 }
 .home-banner .cName h1 {
   font-family: SegoeUi;
@@ -106,14 +105,14 @@ h1, h2, h3, h4, h5, h6, p {
   text-decoration: none;
   color: #000;
   padding: 30px;
-  right: 60px;
+  right: 300px;
 }
 .home-banner .search {
   position: relative;
   width: 604px;
   height: 44px;
   background-color: #000;
-  left: -120px;
+  left: 20px;
 }
 .home-banner .search input {
   width: 604px;
@@ -126,16 +125,17 @@ h1, h2, h3, h4, h5, h6, p {
   position: relative;
   height: 30px;
   width: 30px;
-  left: 494px;
+  left: 390px;
 }
 .home-banner .cart img {
   position: relative;
   height: 30px;
   width: 30px;
-  left: 550px;
+  left: 320px;
 }
 
 .line-break {
+  width: 1600px;
   position: relative;
   top: 80px;
 }
@@ -273,17 +273,16 @@ img {
   display: flex;
 }
 .bookimage .glasses .pic {
-  width: 500px;
+  width: 100%;
   height: 460px;
   background-image: url(../images/open-book-blog.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-left: 120px;
 }
 .bookimage .glasses .sent {
   margin-left: 16px;
-  width: 910px;
+  max-width: 910px;
   height: 500px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -292,26 +291,26 @@ img {
   font-size: 16px;
 }
 .bookimage .glasses .sen {
-  width: 900px;
-  font-size: 16px;
+  max-width: 900px;
+  font-size: 12px;
   margin-bottom: 25px;
   font-family: SegoeUi;
 }
 .bookimage .glasses .sentwo {
-  width: 1000px;
-  font-size: 16px;
+  max-width: 1000px;
+  font-size: 12px;
   margin-bottom: 25px;
   font-family: SegoeUi;
 }
 .bookimage .glasses .senthree {
-  width: 1000px;
-  font-size: 16px;
+  max-width: 1000px;
+  font-size: 12px;
   margin-bottom: 25px;
   font-family: SegoeUi;
 }
 .bookimage .glasses .senfour {
-  width: 1000px;
-  font-size: 16px;
+  max-width: 1000px;
+  font-size: 12px;
   font-family: SegoeUi;
 }
 
@@ -592,7 +591,7 @@ h3 {
 
 .book_boxes {
   position: absolute;
-  width: 1600px;
+  width: 100%;
   height: 600px;
   margin: 0 auto;
   margin-top: 700px;
@@ -747,9 +746,18 @@ h3 {
   left: 30px;
 }
 
+@media all and (max-width: 1000px) {
+  .book_boxes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 30px;
+  }
+}
 .auOne {
   position: absolute;
-  width: 1500px;
+  width: 100%;
   height: 400px;
   margin-left: 120px;
   margin-top: 220px;
@@ -786,7 +794,7 @@ h3 {
 .auOne p {
   position: relative;
   height: 200px;
-  width: 1000px;
+  width: 60%;
   margin-top: -360px;
   left: 440px;
   font-family: SegoeUi;
@@ -796,7 +804,7 @@ h3 {
 
 .auTwo {
   position: absolute;
-  width: 1500px;
+  width: 100%;
   height: 400px;
   margin-left: 120px;
   margin-top: 720px;
@@ -824,7 +832,7 @@ h3 {
 .auTwo p {
   position: relative;
   height: 200px;
-  width: 1000px;
+  width: 60%;
   margin-top: -300px;
   left: 440px;
   font-family: SegoeUi;
@@ -832,6 +840,35 @@ h3 {
   font-weight: lighter;
 }
 
+@media all and (max-width: 1000px) {
+  .auOne {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  p {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  h1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  h2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .blog_One {
   width: 1464px;
   height: 463px;
@@ -1318,4 +1355,101 @@ h3 {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
+}
+
+footer {
+  width: 1920px;
+  position: relative;
+  height: 92px;
+  background-color: #587C83;
+  top: 1440px;
+}
+
+.copy {
+  position: relative;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 38px;
+  right: -60px;
+}
+.copy h2 {
+  font-family: SegoeUi;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.links {
+  position: relative;
+  width: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 740px;
+}
+.links a {
+  font-family: SegoeUi;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.sm {
+  position: relative;
+  width: 240px;
+  height: 60px;
+  left: 1460px;
+  top: -40px;
+}
+.sm .bx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sm .bx .b1 {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.sm .bx .b1 img {
+  width: 40px;
+  height: 40px;
+}
+.sm .bx .b2 {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.sm .bx .b2 img {
+  width: 40px;
+  height: 40px;
+}
+.sm .bx .b3 {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.sm .bx .b3 img {
+  width: 40px;
+  height: 40px;
 }
