@@ -1,5 +1,58 @@
-var homeContent = ``;
-var aboutContent = ``;
+var homeContent = `<div class="hero">
+<h2>a place is <br> not a place</h2>
+<p>until it has a bookstore</p>
+</div>
+
+<div class="book_boxes">
+<div class="clusterOne">
+  <div class="bk1">
+    <div class="desc1">
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna nunc id cursus metus aliquam eleifend mi. Massa vitae tortor condimentum lacinia quis vel eros.</p>
+    </div>
+    <div class="p1">
+      <p>$15.99</p>
+    </div>
+    <button>ADD TO CART</button>
+  </div>
+</div>
+<div class="clusterTwo">
+  <div class="bk2">
+    <div class="desc2">
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna nunc id cursus metus aliquam eleifend mi. Massa vitae tortor condimentum lacinia quis vel eros.</p>
+    </div>
+    <div class="p2">
+      <p>$25.99</p>
+    </div>
+    <button>ADD TO CART</button>
+  </div>
+</div>
+<div class="clusterThree">
+  <div class="bk3">
+    <div class="desc3">
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna nunc id cursus metus aliquam eleifend mi. Massa vitae tortor condimentum lacinia quis vel eros.</p>
+    </div>
+    <div class="p3">
+      <p>$19.99</p>
+    </div>
+    <button>ADD TO CART</button>
+  </div>
+</div>
+</div>
+</div>
+`;
+var aboutContent = `<!-- Author Page -->
+<div class="auOne">
+  <h1>about the booknook</h1>
+  <h2>Founded in 2008</h2>
+  <div class="picOne"></div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Turpis nunc eget lorem dolor. Sed viverra tellus in hac habitasse. Id aliquet risus feugiat in ante metus. Orci nulla pellentesque dignissim enim sit amet. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Tortor at risus viverra adipiscing at in. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Justo donec enim diam vulputate ut. Aliquam ut porttitor leo a diam. Sed id semper risus in hendrerit gravida rutrum quisque non. Pellentesque habitant morbi tristique senectus et netus et malesuada. In ornare quam viverra orci. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi. Sed vulputate mi sit amet mauris commodo quis imperdiet.</p>
+</div>
+<div class="auTwo">
+  <h1>find the perfect book</h1>
+  <div class="picTwo"></div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Turpis nunc eget lorem dolor. Sed viverra tellus in hac habitasse. Id aliquet risus feugiat in ante metus. Orci nulla pellentesque dignissim enim sit amet. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Tortor at risus viverra adipiscing at in. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Justo donec enim diam vulputate ut. Aliquam ut porttitor leo a diam. Sed id semper risus in hendrerit gravida rutrum quisque non. Pellentesque habitant morbi tristique senectus et netus et malesuada. In ornare quam viverra orci. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi. Sed vulputate mi sit amet mauris commodo quis imperdiet.</p>
+</div>
+</div>`;
 var booksContent = `  <div class="novels">
         <h3>BOOKSETS</h3>
       </div>
@@ -227,8 +280,87 @@ var booksContent = `  <div class="novels">
           </div>
         </div>
       </div>`;
-var blogContent = ``;
-var accountContent = ``;
+var blogContent = `    <!-- Blog Page -->
+
+<div class="blog_One">
+    <div class="img_one"></div>
+    <div class="img_one-2"></div>
+    <div class="desc_one">
+      <div class="tag_one">
+        <h2>february favorites</h2>
+      </div>
+      <div class="p_one">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna nunc id cursus metus aliquam eleifend mi. Massa vitae tortor condimentum lacinia quis vel eros.</p>
+      </div>
+      <div class="link_one">
+        <a href="#">read more</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog_two">
+    <div class="img_two"></div>
+    <div class="desc_two">
+      <div class="tag_two">
+        <h2>all about bookclubs</h2>
+      </div>
+      <div class="p_two">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna nunc id cursus metus aliquam eleifend mi. Massa vitae tortor condimentum lacinia quis vel eros.</p>
+      </div>
+      <div class="link_two">
+        <a href="#">read more</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog_three">
+    <div class="img_three"></div>
+    <div class="desc_three">
+      <div class="tag_three">
+        <h2>swtiching to e-readings?</h2>
+      </div>
+      <div class="p_three">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna nunc id cursus metus aliquam eleifend mi. Massa vitae tortor condimentum lacinia quis vel eros.</p>
+      </div>
+      <div class="link_three">
+        <a href="#">read more</a>
+      </div>
+    </div>
+  </div>`;
+var accountContent = `<!-- account page -->
+<div class="inputs">
+    <div class="log_in">
+      <div class="ltag">
+        <h2>login here!</h2>
+      </div>
+      <div class="lemail">
+        <input type="text" name="lemail" id="lemail" placeholder="Email Address:">
+      </div>
+      <div class="lpword">
+        <input type="text" name="lemail" id="lemail" placeholder="Password:">
+      </div>
+      <div class="login">
+        <button id="login" >login</button>
+      </div>
+    </div>
+    <div class="sign_up">
+      <div class="stag">
+        <h4>don't have an account?</h4>
+        <h2>Sign up!</h2>
+      </div>
+
+      <div class="in_boxes">
+        <div class="fn"><input type="text" name="fn" id="fn" placeholder="First Name:"></div>
+        <div class="ln"><input type="text" name="ln" id="ln" placeholder="Last Name:"></div>
+        <div class="ea"><input type="text" name="ea" id="ea" placeholder="Email Address:"></div>
+        <div class="pw"><input type="text" name="pw" id="pw" placeholder="Password:"></div>
+      </div>
+
+      <div class="signup">
+        <button id="signup" >sign up</button>
+      </div>
+    </div>
+   </div>`;
 var cartContent = ``;
 var febContent = `<div class="feb">
 <div class="banner">
@@ -625,8 +757,7 @@ export function changePage(pageId, callback) {
             <h4>${bookInCart.bookTitle}</h4>
             <p>${bookInCart.bookAuthor}</p>
             <p>${bookInCart.price}</p>
-            <p>In Stock</p>
-            <p>Qty: 1 change | delete</p>
+            <p>Quantity: 1</p>
           </div>
           </div>`);
       });
