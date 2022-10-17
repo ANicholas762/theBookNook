@@ -76,8 +76,8 @@ h1, h2, h3, h4, h5, h6, p {
 .home-banner .cName {
   position: relative;
   height: 20px;
-  width: 200px;
-  left: -200px;
+  width: 300px;
+  left: -20px;
 }
 .home-banner .cName h1 {
   font-family: SegoeUi;
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: 604px;
   height: 44px;
   background-color: #000;
-  left: -120px;
+  left: 60px;
 }
 .home-banner .search input {
   width: 604px;
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6, p {
   position: relative;
   height: 30px;
   width: 30px;
-  left: 494px;
+  left: 624px;
 }
 .home-banner .cart img {
   position: relative;
@@ -1318,4 +1318,101 @@ h3 {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 92px;
+  background-color: #587C83;
+  top: 1440px;
+}
+
+.copy {
+  position: relative;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 38px;
+  right: -60px;
+}
+.copy h2 {
+  font-family: SegoeUi;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.links {
+  position: relative;
+  width: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 740px;
+}
+.links a {
+  font-family: SegoeUi;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.sm {
+  position: relative;
+  width: 240px;
+  height: 60px;
+  left: 1460px;
+  top: -40px;
+}
+.sm .bx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sm .bx .b1 {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.sm .bx .b1 img {
+  width: 40px;
+  height: 40px;
+}
+.sm .bx .b2 {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.sm .bx .b2 img {
+  width: 40px;
+  height: 40px;
+}
+.sm .bx .b3 {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.sm .bx .b3 img {
+  width: 40px;
+  height: 40px;
 }
