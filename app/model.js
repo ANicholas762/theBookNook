@@ -625,7 +625,8 @@ export function changePage(pageId, callback) {
             <h4>${bookInCart.bookTitle}</h4>
             <p>${bookInCart.bookAuthor}</p>
             <p>${bookInCart.price}</p>
-            <p>Quantity: 1</p>
+            <p>In Stock</p>
+            <p>Qty: 1 change | delete</p>
           </div>
           </div>`);
       });
