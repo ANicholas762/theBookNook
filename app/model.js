@@ -293,7 +293,7 @@ var blogContent = `    <!-- Blog Page -->
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna nunc id cursus metus aliquam eleifend mi. Massa vitae tortor condimentum lacinia quis vel eros.</p>
       </div>
       <div class="link_one">
-        <a href="#">read more</a>
+        <a href="#feb">read more</a>
       </div>
     </div>
   </div>
@@ -308,7 +308,7 @@ var blogContent = `    <!-- Blog Page -->
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna nunc id cursus metus aliquam eleifend mi. Massa vitae tortor condimentum lacinia quis vel eros.</p>
       </div>
       <div class="link_two">
-        <a href="#">read more</a>
+        <a href="#bookclub">read more</a>
       </div>
     </div>
   </div>
@@ -323,7 +323,7 @@ var blogContent = `    <!-- Blog Page -->
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna nunc id cursus metus aliquam eleifend mi. Massa vitae tortor condimentum lacinia quis vel eros.</p>
       </div>
       <div class="link_three">
-        <a href="#">read more</a>
+        <a href="#ereading">read more</a>
       </div>
     </div>
   </div>`;
