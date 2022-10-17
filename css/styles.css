@@ -71,12 +71,21 @@ h1, h2, h3, h4, h5, h6, p {
   position: relative;
   height: 60px;
   width: 60px;
+<<<<<<< HEAD
+=======
+  left: -80px;
+>>>>>>> 15ce47ea2c0fd72491c50f03f6106217ecec9eea
 }
 .home-banner .cName {
   position: relative;
   height: 20px;
+<<<<<<< HEAD
   width: 200px;
   left: 10px;
+=======
+  width: 300px;
+  left: -60px;
+>>>>>>> 15ce47ea2c0fd72491c50f03f6106217ecec9eea
 }
 .home-banner .cName h1 {
   font-family: SegoeUi;
@@ -112,7 +121,11 @@ h1, h2, h3, h4, h5, h6, p {
   width: 604px;
   height: 44px;
   background-color: #000;
+<<<<<<< HEAD
   left: 20px;
+=======
+  left: 60px;
+>>>>>>> 15ce47ea2c0fd72491c50f03f6106217ecec9eea
 }
 .home-banner .search input {
   width: 604px;
@@ -125,7 +138,11 @@ h1, h2, h3, h4, h5, h6, p {
   position: relative;
   height: 30px;
   width: 30px;
+<<<<<<< HEAD
   left: 390px;
+=======
+  left: 624px;
+>>>>>>> 15ce47ea2c0fd72491c50f03f6106217ecec9eea
 }
 .home-banner .cart img {
   position: relative;
@@ -561,7 +578,7 @@ h3 {
   height: 530px;
   background-color: cornflowerblue;
   margin-left: 120px;
-  margin-top: 120px;
+  margin-top: 80px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(88, 124, 131, 0.6)), to(rgba(88, 124, 131, 0.6))), url(../images/home-hero.jpg);
   background-image: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url(../images/home-hero.jpg);
   background-size: cover;
@@ -1358,8 +1375,13 @@ h3 {
 }
 
 footer {
+<<<<<<< HEAD
   width: 1920px;
   position: relative;
+=======
+  position: relative;
+  width: 100%;
+>>>>>>> 15ce47ea2c0fd72491c50f03f6106217ecec9eea
   height: 92px;
   background-color: #587C83;
   top: 1440px;

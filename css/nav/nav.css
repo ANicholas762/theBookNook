@@ -1,0 +1,75 @@
+.home-banner .logo img {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  left: -80px;
+}
+.home-banner .cName {
+  position: relative;
+  height: 20px;
+  width: 300px;
+  left: -60px;
+}
+.home-banner .cName h1 {
+  font-family: SegoeUi;
+  font-size: 16px;
+  font-weight: lighter;
+}
+.home-banner nav {
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.home-banner nav a {
+  position: relative;
+  font-family: SegoeUi;
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #000;
+  padding: 30px;
+  right: 60px;
+}
+.home-banner .search {
+  position: relative;
+  width: 604px;
+  height: 44px;
+  background-color: #000;
+  left: 60px;
+}
+.home-banner .search input {
+  width: 604px;
+  height: 44px;
+  background-color: #c1d0d4;
+  border-color: #707070;
+  border-style: none;
+}
+.home-banner .user img {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  left: 624px;
+}
+.home-banner .cart img {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  left: 550px;
+}
+
+.line-break {
+  position: relative;
+  top: 80px;
+}
+.line-break hr {
+  border: 1px solid #000;
+}

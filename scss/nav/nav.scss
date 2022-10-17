@@ -6,7 +6,11 @@
             position: relative;
             height: 60px;
             width: 60px;
+<<<<<<< HEAD
             // left: 235px;
+=======
+            left: -80px;
+>>>>>>> 15ce47ea2c0fd72491c50f03f6106217ecec9eea
         }
 
     }
@@ -14,9 +18,13 @@
     .cName {
         position: relative;
         height: 20px;
-        width: 200px;
+        width: 300px;
         // background-color: blueviolet;
+<<<<<<< HEAD
         left: 10px;
+=======
+        left: -60px;
+>>>>>>> 15ce47ea2c0fd72491c50f03f6106217ecec9eea
 
         h1 {
             font-family: SegoeUi;
@@ -53,7 +61,11 @@
         width: 604px;
         height: 44px;
         background-color: #000;
+<<<<<<< HEAD
         left: 20px;
+=======
+        left: 60px;
+>>>>>>> 15ce47ea2c0fd72491c50f03f6106217ecec9eea
 
         input {
             width: 604px;
@@ -61,6 +73,7 @@
             background-color: #c1d0d4;
             border-color: #707070;
             border-style: none;
+            
         }
     }
 
@@ -69,15 +82,16 @@
             position: relative;
             height: 30px;
             width: 30px;
+<<<<<<< HEAD
            
             left: 390px;
+=======
+            left: 624px;
+>>>>>>> 15ce47ea2c0fd72491c50f03f6106217ecec9eea
         }
     }
 
     .cart {
-        // background-color: blue;
-        // height: 30px;
-        // width: 30px;
         img {
             position: relative;
             height: 30px;
@@ -85,10 +99,6 @@
             left: 320px;
         }
     }
-    // #cartFull{
-    //     background-color: red;
-    //     border-radius: 15px;
-    // }
 
 }
 
@@ -100,7 +110,6 @@
         border: 1px solid #000;
     }
  }
-
 
 
 
